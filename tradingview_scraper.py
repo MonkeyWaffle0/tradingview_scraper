@@ -95,7 +95,7 @@ if __name__ == '__main__':
         # csv.
         pyautogui.press("right")
         # Some errors may occur if the chart is moving too fast.
-        sleep(0.5)
+        sleep(0.1)
         # Gets the values you want.
         price, dif_sar, klinger, rsi = get_values()
         if price == "n/a":
